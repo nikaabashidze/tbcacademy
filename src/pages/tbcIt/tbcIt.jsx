@@ -8,9 +8,13 @@ const about = () => {
   return (
     <div className='tbcIt'>
       <Header/>
-        <div className='tbcIt-content'>
-          <h1>TBC IT </h1>
+        <div className='tbcIt-content' >
+          <h1>​ᲗᲘᲑᲘᲡᲘ IT ᲐᲙᲐᲓᲔᲛᲘᲐ </h1>
+          <h1>შეისწავლე ახალი პროფესია </h1>
         </div>
+
+
+        <div className='tbcitContent'></div>
       <Footer/>
     </div>
   )

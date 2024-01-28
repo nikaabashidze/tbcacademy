@@ -7,8 +7,8 @@ const risk = () => {
     <div className='risk'>
       <Header/>
         <div className='risks-Page'>
-          <h1>Risks</h1>
         </div>
+          <div className='risks-Page-Content'></div>
       <Footer/>
     </div>
   )

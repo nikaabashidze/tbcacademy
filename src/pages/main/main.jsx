@@ -14,7 +14,10 @@ const main = () => {
         <h1>დარეგისტრირდი სასურველ კურსზე</h1>
         </div>
       </div>
+      <div className='mainContent'>
 
+
+      </div>
      
       <Footer/>
     </div>
