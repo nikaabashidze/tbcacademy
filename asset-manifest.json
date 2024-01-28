@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tbcacademy/static/css/main.b24483a3.css",
+    "main.css": "/tbcacademy/static/css/main.4abde0cc.css",
     "main.js": "/tbcacademy/static/js/main.c822be48.js",
     "static/js/787.e2ea1c61.chunk.js": "/tbcacademy/static/js/787.e2ea1c61.chunk.js",
     "static/media/tbcitImage.webp": "/tbcacademy/static/media/tbcitImage.f0f5ed08068b0cf487c2.webp",
@@ -28,12 +28,12 @@
     "static/media/facebookLogo.webp": "/tbcacademy/static/media/facebookLogo.1860f555f59bca7bb241.webp",
     "static/media/youtubeLogo.webp": "/tbcacademy/static/media/youtubeLogo.2dbe0e289531bed5bc82.webp",
     "index.html": "/tbcacademy/index.html",
-    "main.b24483a3.css.map": "/tbcacademy/static/css/main.b24483a3.css.map",
+    "main.4abde0cc.css.map": "/tbcacademy/static/css/main.4abde0cc.css.map",
     "main.c822be48.js.map": "/tbcacademy/static/js/main.c822be48.js.map",
     "787.e2ea1c61.chunk.js.map": "/tbcacademy/static/js/787.e2ea1c61.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b24483a3.css",
+    "static/css/main.4abde0cc.css",
     "static/js/main.c822be48.js"
   ]
 }
