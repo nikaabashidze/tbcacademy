@@ -1,5 +1,8 @@
 {
   "homepage": "https://nikaabashidze.github.io/tbcacademy",
+  "it-academy": "https://nikaabashidze.github.io/it-academy",
+  "it-usaid": "https://nikaabashidze.github.io/usaid",
+  "risks-academy": "https://nikaabashidze.github.io/risks-academy",
   "name": "tbcproject",
   "version": "0.1.0",
   "private": true,
