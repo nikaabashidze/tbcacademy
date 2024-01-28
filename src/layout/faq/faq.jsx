@@ -19,7 +19,7 @@ function FAQ() {
       <div className="faq-container">
         <div className='faqHeaderText'> 
             <h1>ხშირად დასმული კითხვები</h1>
-            <BlueButton text="კურსის დეტალები"  />
+            <BlueButton text="ყველა კითხვა"  />
         </div>
       <div className="faq-questions">
         {/* Map over your FAQ data to generate question components */}

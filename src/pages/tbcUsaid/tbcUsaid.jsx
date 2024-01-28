@@ -4,6 +4,7 @@ import Header from '../../layout/header/header'
 import Footer from '../../layout/footer/footer'
 import Bluebutton from '../../components/button/blueButton'
 import CardList from '../../layout/cardsList/cardList'
+import Slider from '../../layout/slider/slider'
 import Faq from '../../layout/faq/faq'
 
 const tbcUsaid = () => {
@@ -47,7 +48,7 @@ const tbcUsaid = () => {
 
         <div className='projectPartners'>
         <h6>პროექტის პარტნიორები</h6>
-
+            <Slider/>
         </div>
 
 

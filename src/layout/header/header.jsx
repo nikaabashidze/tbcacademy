@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Outlet, Link } from "react-router-dom";
 import headerlogo from '../../assets/image/headerLogo.png';
 import './header.css';
 
 function Header() {
   const [sideMenuActive, setSideMenuActive] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleSideMenu = () => {
     setSideMenuActive(!sideMenuActive);
@@ -14,8 +15,20 @@ function Header() {
     setSideMenuActive(false);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="header">
+    <div className={`header ${scrolled ? 'scrolled' : ''}`}>
       <button className="side-button" onClick={toggleSideMenu}>
         ☰
       </button>
