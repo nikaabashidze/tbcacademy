@@ -1,0 +1,96 @@
+.footer {
+    width: auto;
+    min-height: 228px; /* Changed height to min-height for responsiveness */
+    background-color: rgba(26, 31, 30, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px; /* Added padding for better spacing */
+}
+
+.footer > * {
+    width: 17%;
+    height: 100%; /* Changed height to 100% for better alignment */
+    color: rgb(255, 255, 255);
+    display: flex; /* Added display flex */
+    flex-direction: column; /* Added flex-direction column for vertical alignment */
+    justify-content: center;
+    align-items: left; /* Changed to left for better alignment */
+}
+
+#footerLogo {
+    width: 150px;
+    height: 40px;
+}
+
+
+.footer ul {
+    width: 100%;
+    list-style: none;
+    text-align: left;
+    padding: 0; /* Removed default padding */
+}
+
+.footer ul li {
+    width: auto;
+    position: relative;
+    line-height: 50px;
+}
+
+.socialParent {
+    display: grid;
+    justify-content: right;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+    align-items: center;
+}
+
+.socialMediaLogo {
+    width: 39px;
+    height: 39px;
+    color: white;
+    cursor: pointer;
+}
+
+.messaggeUsButton {
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 36px;
+    background-color:rgba(1,174,242,255);
+    color: white;
+    border: none; /* Removed default border */
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        min-height: auto;
+        padding: 20px 0;
+    }
+
+    .footer > * {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .footer ul li::after {
+        bottom: 0; /* Reset to default position */
+    }
+
+
+    .messaggeUsButton {
+        width: 90%;
+    }
+
+
+    .socialParent {
+        display: flex;
+    }
+
+}

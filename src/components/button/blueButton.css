@@ -1,0 +1,8 @@
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px ;
+    color: rgb(37, 157, 249);
+    align-items: left;
+}

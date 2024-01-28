@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h6 {
+    font-size: 26px;
+    padding-top: 50px;
+    margin-left: 15px;
+    font-weight: 300;
+    text-align: left;
+    
+    
+    }
+
+
+
+
+.tbcUsaid {
+    text-align: center;
+    height: 1000px;
+    font-family: sans-serif;
+}
+
+
+.usaidImage {
+    width: 100%;
+    height: 352px;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background-image: url('../../assets/image/usaidImage.webp');
+    background-size: 100% 100%;
+}
+
+.usaidImagetext {
+width: 65%;
+align-items: center;
+text-align: center;
+}
+
+.usaidImagetext h1 {
+    font-weight: 800;
+    text-align: left;
+    font-size: 2.5vw; 
+    margin: 10px 0; 
+    line-height: 1.5; 
+    width: 100%;
+}
+
+.usaidText {
+    color: white;
+    background-color: rgba(42,43,42,255);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.usaidText p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    line-height: 1.6;
+    width: 65%;
+    max-width: auto;
+    text-align: left;
+    font-size: 28px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.usaidCards {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(22, 22, 22, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+.cardsCont {
+    width: 65%;
+    height: 100%;
+
+}
+
+
+
+
+
+
+
+
+  .projectPartners {
+    width: 100%;
+    height: 363px;
+    background-color: rgba(42,43,42,255);
+    color: white;
+    margin-bottom: 0px;
+  }  
+
+.projectPartners h6 {
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+.questions {
+    width: 100%;
+    height: auto;
+    background-color: rgba(22, 22, 22, 1);
+
+}
+
+
+.questions div{
+
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+    .usaidImage {
+      
+        background-size: cover;
+        background-position: 45% 80% ;
+        justify-content: left;
+    }
+
+
+   
+
+    .usaidImagetext {
+        margin-left: 45px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        }
+
+
+
+    .usaidImagetext h1 {
+        text-align: left;
+        font-size: 28px; 
+        line-height: 1.5; 
+        width: 65%;
+    }
+
+
+
+
+
+    
+    .usaidText p {
+        width: 85%;
+        font-size: 20px;
+    }
+
+
+
+
+    .cardsCont {
+        width: 85%;
+        height: 100%;
+    
+    }
+
+
+
+
+
+
+
+
+
+}
+
